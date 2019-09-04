@@ -7,7 +7,9 @@ data:extend(
     energy_required = 2,
     ingredients =
     {
-      {"iron-plate", 3}
+      {"iron-plate", 1},
+      {"copper-plate", 1},
+      {"coal", 1}
     },
     result = "small-carbonized-lead",
     result_count = 1
