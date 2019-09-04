@@ -5,7 +5,7 @@ local turrets = data.raw["technology"]["turrets"]
 table.insert(turrets.effects, { type = "unlock-recipe", recipe = "small-carbonized-lead" })
 
 -- Add new technologies
-data:extend(
+--[[data:extend(
 {
   {
     type = "technology",
@@ -79,3 +79,4 @@ data:extend(
   }
 }
 )
+]]
