@@ -1,0 +1,6 @@
+require("prototypes.categories.ammo-category")
+require("prototypes.entity.turrets")
+require("prototypes.item.ammo")
+require("prototypes.recipe.ammo")
+require("prototypes.technology.military-upgrades")
+require("prototypes.technology.technology")
