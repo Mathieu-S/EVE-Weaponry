@@ -65,11 +65,11 @@ data:extend(
             },
             {
               type = "damage",
-              damage = { amount = 4 , type = "physical"}
+              damage = { amount = 20 , type = "physical"}
             },
             {
               type = "damage",
-              damage = { amount = 3 , type = "poison"}
+              damage = { amount = 25 , type = "poison"}
             }
           }
         }
