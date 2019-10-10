@@ -191,15 +191,7 @@ data:extend(
             },
             {
               type = "damage",
-              damage = { amount = 3 , type = "physical"}
-            },
-            {
-              type = "damage",
-              damage = { amount = 4 , type = "explosion"}
-            },
-            {
-              type = "damage",
-              damage = { amount = 2 , type = "poison"}
+              damage = { amount = 120 , type = "explosion"}
             }
           }
         }
