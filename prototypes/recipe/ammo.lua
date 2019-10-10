@@ -21,8 +21,8 @@ data:extend(
     energy_required = 2,
     ingredients =
     {
-      {"copper-plate", 5},
-      {"steel-plate", 1}
+      {"uranium-238", 1},
+      {"small-carbonized-lead", 1}
     },
     result = "small-depleted-uranium",
     result_count = 1
