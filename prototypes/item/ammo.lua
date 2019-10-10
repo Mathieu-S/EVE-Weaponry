@@ -65,11 +65,11 @@ data:extend(
             },
             {
               type = "damage",
-              damage = { amount = 4 , type = "physical"}
+              damage = { amount = 20 , type = "physical"}
             },
             {
               type = "damage",
-              damage = { amount = 3 , type = "poison"}
+              damage = { amount = 25 , type = "poison"}
             }
           }
         }
@@ -77,7 +77,7 @@ data:extend(
     },
     magazine_size = 20,
     subgroup = "ammo",
-    order = "a[basic-clips]-b[piercing-bullet-magazine]",
+    order = "a[small-carbonized-lead]",
     stack_size = 100
   },
   {
@@ -119,7 +119,7 @@ data:extend(
     },
     magazine_size = 20,
     subgroup = "ammo",
-    order = "a[basic-clips]-b[piercing-bullet-magazine]",
+    order = "a[small-carbonized-lead]",
     stack_size = 100
   },
   {
@@ -161,7 +161,7 @@ data:extend(
     },
     magazine_size = 20,
     subgroup = "ammo",
-    order = "a[basic-clips]-b[piercing-bullet-magazine]",
+    order = "a[small-carbonized-lead]",
     stack_size = 100
   },
   {
@@ -187,19 +187,11 @@ data:extend(
           {
             {
               type = "create-entity",
-              entity_name = "explosion-hit"
+              entity_name = "explosion"
             },
             {
               type = "damage",
-              damage = { amount = 3 , type = "physical"}
-            },
-            {
-              type = "damage",
-              damage = { amount = 4 , type = "explosion"}
-            },
-            {
-              type = "damage",
-              damage = { amount = 2 , type = "poison"}
+              damage = { amount = 120 , type = "explosion"}
             }
           }
         }
@@ -207,7 +199,7 @@ data:extend(
     },
     magazine_size = 20,
     subgroup = "ammo",
-    order = "a[basic-clips]-b[piercing-bullet-magazine]",
+    order = "a[small-carbonized-lead]",
     stack_size = 100
   },
   {
@@ -253,7 +245,7 @@ data:extend(
     },
     magazine_size = 20,
     subgroup = "ammo",
-    order = "a[basic-clips]-b[piercing-bullet-magazine]",
+    order = "a[small-carbonized-lead]",
     stack_size = 100
   },
   {
@@ -299,7 +291,7 @@ data:extend(
     },
     magazine_size = 20,
     subgroup = "ammo",
-    order = "a[basic-clips]-b[piercing-bullet-magazine]",
+    order = "a[small-carbonized-lead]",
     stack_size = 100
   },
   {
@@ -341,7 +333,7 @@ data:extend(
     },
     magazine_size = 20,
     subgroup = "ammo",
-    order = "a[basic-clips]-b[piercing-bullet-magazine]",
+    order = "a[small-carbonized-lead]",
     stack_size = 100
   }
 }
