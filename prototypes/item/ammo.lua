@@ -321,11 +321,11 @@ data:extend(
             },
             {
               type = "damage",
-              damage = { amount = 4 , type = "physical"}
+              damage = { amount = 10 , type = "physical"}
             },
             {
               type = "damage",
-              damage = { amount = 3 , type = "impact"}
+              damage = { amount = 15 , type = "impact"}
             }
           }
         }
