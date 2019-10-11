@@ -100,8 +100,8 @@ data:extend(
     energy_required = 2,
     ingredients =
     {
-      {"copper-plate", 5},
-      {"steel-plate", 1}
+      {"steel-plate", 2},
+      {"small-carbonized-lead", 1}
     },
     result = "small-titanium-sabot",
     result_count = 1
