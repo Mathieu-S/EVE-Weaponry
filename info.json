@@ -1,12 +1,13 @@
 {
 	"name":"eve-weaponry",
 	"author":"SPG",
-	"version":"0.3.1",
+	"version":"0.4.0",
 	"title":"EVE Weaponry",
 	"homepage":"None",
 	"description":"This Mod change the turrets ammunition system.",
 	"factorio_version": "0.18",
-	"dependencies": [
-		"base >= 0.18"
+	"dependencies":[
+		"base >= 0.18",
+		"? Krastorio2 >= 0.9.6"
 	]
 }
