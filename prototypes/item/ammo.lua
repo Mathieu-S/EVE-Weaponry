@@ -4,7 +4,8 @@ data:extend(
     type = "ammo",
     name = "small-carbonized-lead",
     icon = "__eve-weaponry__/graphics/ammo/small_carbonized_lead.png",
-    icon_size = 32,
+    icon_size = 64,
+	icon_mipmaps = 4,
     ammo_type =
     {
       category = "turret-bullet",
@@ -42,7 +43,8 @@ data:extend(
     type = "ammo",
     name = "small-depleted-uranium",
     icon = "__eve-weaponry__/graphics/ammo/small_depleted_uranium.png",
-    icon_size = 32,
+    icon_size = 64,
+	icon_mipmaps = 4,
     ammo_type =
     {
       category = "turret-bullet",
@@ -84,7 +86,8 @@ data:extend(
     type = "ammo",
     name = "small-emp",
     icon = "__eve-weaponry__/graphics/ammo/small_emp.png",
-    icon_size = 32,
+    icon_size = 64,
+	icon_mipmaps = 4,
     ammo_type =
     {
       category = "turret-bullet",
@@ -126,7 +129,8 @@ data:extend(
     type = "ammo",
     name = "small-fusion",
     icon = "__eve-weaponry__/graphics/ammo/small_fusion.png",
-    icon_size = 32,
+    icon_size = 64,
+	icon_mipmaps = 4,
     ammo_type =
     {
       category = "turret-bullet",
@@ -168,7 +172,8 @@ data:extend(
     type = "ammo",
     name = "small-nuclear",
     icon = "__eve-weaponry__/graphics/ammo/small_nuclear.png",
-    icon_size = 32,
+    icon_size = 64,
+	icon_mipmaps = 4,
     ammo_type =
     {
       category = "turret-bullet",
@@ -206,7 +211,8 @@ data:extend(
     type = "ammo",
     name = "small-phased-plasma",
     icon = "__eve-weaponry__/graphics/ammo/small_phased_plasma.png",
-    icon_size = 32,
+    icon_size = 64,
+	icon_mipmaps = 4,
     ammo_type =
     {
       category = "turret-bullet",
@@ -252,7 +258,8 @@ data:extend(
     type = "ammo",
     name = "small-proton",
     icon = "__eve-weaponry__/graphics/ammo/small_proton.png",
-    icon_size = 32,
+    icon_size = 64,
+	icon_mipmaps = 4,
     ammo_type =
     {
       category = "turret-bullet",
@@ -298,7 +305,8 @@ data:extend(
     type = "ammo",
     name = "small-titanium-sabot",
     icon = "__eve-weaponry__/graphics/ammo/small_titanium_sabot.png",
-    icon_size = 32,
+    icon_size = 64,
+	icon_mipmaps = 4,
     ammo_type =
     {
       category = "turret-bullet",
