@@ -8,6 +8,7 @@
 	"factorio_version": "0.18",
 	"dependencies":[
 		"base >= 0.18",
-		"? Krastorio2 >= 0.9.6"
+		"? Krastorio2 >= 0.9.6",
+		"? scattergun_turret >= 5.1.0"
 	]
 }
