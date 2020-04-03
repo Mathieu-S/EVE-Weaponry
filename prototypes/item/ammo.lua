@@ -114,11 +114,11 @@ data:extend(
             },
             {
               type = "damage",
-              damage = { amount = 2 , type = "physical"}
+              damage = { amount = 6 , type = "physical"}
             },
             {
               type = "damage",
-              damage = { amount = 3 , type = "electric"}
+              damage = { amount = 8 , type = "electric"}
             }
           }
         }
