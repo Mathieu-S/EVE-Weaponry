@@ -8,6 +8,10 @@ table.insert(turrets.effects, { type = "unlock-recipe", recipe = "small-carboniz
 local turrets = data.raw["technology"]["military-2"]
 table.insert(turrets.effects, { type = "unlock-recipe", recipe = "small-titanium-sabot" })
 
+-- Update the technology military 3
+local turrets = data.raw["technology"]["military-3"]
+table.insert(turrets.effects, { type = "unlock-recipe", recipe = "small-emp" })
+
 -- Update the technology uranium ammo
 local turrets = data.raw["technology"]["uranium-ammo"]
 table.insert(turrets.effects, { type = "unlock-recipe", recipe = "small-depleted-uranium" })
