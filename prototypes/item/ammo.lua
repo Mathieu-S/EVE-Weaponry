@@ -109,6 +109,10 @@ data:extend(
               entity_name = "explosion-hit"
             },
             {
+              type = "create-sticker",
+              sticker = "slowdown-sticker"
+            },
+            {
               type = "damage",
               damage = { amount = 2 , type = "physical"}
             },
