@@ -34,8 +34,8 @@ data:extend(
     energy_required = 2,
     ingredients =
     {
-      {"copper-plate", 5},
-      {"steel-plate", 1}
+      {"slowdown-capsule", 1},
+      {"small-carbonized-lead", 1}
     },
     result = "small-emp",
     result_count = 1
