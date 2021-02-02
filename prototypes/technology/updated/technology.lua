@@ -1,7 +1,7 @@
 require "util"
 
 -- Update the technology turrets
-local turrets = data.raw["technology"]["turrets"]
+local turrets = data.raw["technology"]["gun-turret"]
 table.insert(turrets.effects, { type = "unlock-recipe", recipe = "small-carbonized-lead" })
 
 -- Update the technology military 2
