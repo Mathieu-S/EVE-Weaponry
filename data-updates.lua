@@ -1,7 +1,7 @@
 -- Overrides the game's default behavior
-require("prototypes.entity.overwrite.turrets")
-require("prototypes.item.overwrite.gun")
-require("prototypes.technology.overwrite.military-upgrades")
-require("prototypes.technology.overwrite.technology")
+require("prototypes.entity.override.turrets")
+require("prototypes.item.override.gun")
+require("prototypes.technology.override.military-upgrades")
+require("prototypes.technology.override.technology")
 
 -- Mods compatibility :
