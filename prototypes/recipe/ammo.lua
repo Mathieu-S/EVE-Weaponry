@@ -7,12 +7,11 @@ data:extend(
     energy_required = 2,
     ingredients =
     {
-      {"iron-plate", 1},
-      {"copper-plate", 1},
-      {"coal", 1}
+      {type = "item", name = "iron-plate", amount = 1},
+      {type = "item", name = "copper-plate", amount = 1},
+      {type = "item", name = "coal", amount = 1}
     },
-    result = "small-carbonized-lead",
-    result_count = 1
+    results = {{type="item", name="small-carbonized-lead", amount=1}}
   },
   {
     type = "recipe",
@@ -20,12 +19,11 @@ data:extend(
     enabled = false,
     energy_required = 2,
     ingredients =
-    {
-      {"uranium-238", 1},
-      {"small-carbonized-lead", 1}
+    { 
+      {type = "item", name = "uranium-238", amount = 1},
+      {type = "item", name = "small-carbonized-lead", amount = 1}
     },
-    result = "small-depleted-uranium",
-    result_count = 1
+    results = {{type="item", name="small-depleted-uranium", amount=1}}
   },
   {
     type = "recipe",
@@ -34,11 +32,10 @@ data:extend(
     energy_required = 2,
     ingredients =
     {
-      {"slowdown-capsule", 1},
-      {"small-carbonized-lead", 1}
+      {type = "item", name = "slowdown-capsule", amount = 1},
+      {type = "item", name = "small-carbonized-lead", amount = 1}
     },
-    result = "small-emp",
-    result_count = 1
+    results = {{type="item", name="small-emp", amount=1}}
   },
   {
     type = "recipe",
@@ -47,11 +44,10 @@ data:extend(
     energy_required = 2,
     ingredients =
     {
-      {"copper-plate", 5},
-      {"steel-plate", 1}
+      {type = "item", name = "copper-plate", amount = 5},
+      {type = "item", name = "steel-plate", amount = 1}
     },
-    result = "small-fusion",
-    result_count = 1
+    results = {{type="item", name="small-fusion", amount=1}}
   },
   {
     type = "recipe",
@@ -60,12 +56,11 @@ data:extend(
     energy_required = 2,
     ingredients =
     {
-      {"uranium-235", 1},
-      {"explosives", 1},
-      {"small-carbonized-lead", 1}
+      {type = "item", name = "uranium-235", amount = 1},
+      {type = "item", name = "explosives", amount = 1},
+      {type = "item", name = "small-carbonized-lead", amount = 1}
     },
-    result = "small-nuclear",
-    result_count = 1
+    results = {{type="item", name="small-nuclear", amount=1}}
   },
   {
     type = "recipe",
@@ -74,11 +69,10 @@ data:extend(
     energy_required = 2,
     ingredients =
     {
-      {"copper-plate", 5},
-      {"steel-plate", 1}
+      {type = "item", name = "copper-plate", amount = 5},
+      {type = "item", name = "steel-plate", amount = 1}
     },
-    result = "small-phased-plasma",
-    result_count = 1
+    results = {{type="item", name="small-phased-plasma", amount=1}}
   },
   {
     type = "recipe",
@@ -87,11 +81,10 @@ data:extend(
     energy_required = 2,
     ingredients =
     {
-      {"copper-plate", 5},
-      {"steel-plate", 1}
+      {type = "item", name = "copper-plate", amount = 5},
+      {type = "item", name = "steel-plate", amount = 1}
     },
-    result = "small-proton",
-    result_count = 1
+    results = {{type="item", name="small-proton", amount=1}}
   },
   {
     type = "recipe",
@@ -100,11 +93,10 @@ data:extend(
     energy_required = 2,
     ingredients =
     {
-      {"steel-plate", 2},
-      {"small-carbonized-lead", 1}
+      {type = "item", name = "steel-plate", amount = 2},
+      {type = "item", name = "small-carbonized-lead", amount = 1}
     },
-    result = "small-titanium-sabot",
-    result_count = 1
+    results = {{type="item", name="small-titanium-sabot", amount=1}}
   }
 }
 )
