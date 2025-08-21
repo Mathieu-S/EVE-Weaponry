@@ -14,7 +14,7 @@ table.insert(physical_projectile_damage, data.raw["technology"]["physical-projec
 
 for k, v in pairs(physical_projectile_damage) do
   local bullet_modifier = v.effects[1].modifier
-  table.insert(v.effects, { type = "ammo-damage", ammo_category = "turret-bullet", modifier = bullet_modifier})
+  table.insert(v.effects, { type = "ammo-damage", ammo_category = "turret-ammo-box", modifier = bullet_modifier})
 end
 
 -- Update the weapon-shooting-speed
@@ -29,5 +29,5 @@ table.insert(weapon_shooting_speed, data.raw["technology"]["weapon-shooting-spee
 
 for k, v in pairs(weapon_shooting_speed) do
   local bullet_modifier = v.effects[1].modifier
-  table.insert(v.effects, { type = "gun-speed", ammo_category = "turret-bullet", modifier = bullet_modifier})
+  table.insert(v.effects, { type = "gun-speed", ammo_category = "turret-ammo-box", modifier = bullet_modifier})
 end
