@@ -1,5 +1,12 @@
 ---------------------------------------------------------------------------------------------------
 Version: 0.8.0
+Date: 22. 08. 2025
+  Features:
+    - Updated for Factorio 2.0
+  Changes:
+    - Remove all mods compatibility before rework
+---------------------------------------------------------------------------------------------------
+Version: 0.8.0
 Date: 04. 02. 2021
   Features:
     - Add the EMP ammo box
